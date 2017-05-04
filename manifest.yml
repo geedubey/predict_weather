@@ -1,0 +1,6 @@
+applications:
+  - name: predict-weather 
+    buildpack: ruby_buildpack
+    memory: 256M
+    host: predict-weather
+    stack: cflinuxfs2
